@@ -20,37 +20,36 @@ class Calculator extends React.Component {
   render(){
     return (
     <div className="frame">
-    <CalculatorTitle value="GeeksforGeeks Calculator"/>
+    
     <div className="mainCalc">
     <OutputScreen question={this.state.question} answer={this.state.answer}/>
-    <div className="button-row">
+		  <div className="calculator-keys">
+
       <Button label={'Clear'} handleClick={this.handleClick}/>
       <Button label={'Delete'} handleClick={this.handleClick}/>
       <Button label={'.'} handleClick={this.handleClick}/>
       <Button label={'/'} handleClick={this.handleClick}/>
-    </div>
-    <div className="button-row">
+    
+    
       <Button label={'7'} handleClick={this.handleClick}/>
       <Button label={'8'} handleClick={this.handleClick}/>
       <Button label={'9'} handleClick={this.handleClick}/>
       <Button label={'*'} handleClick={this.handleClick}/>
-    </div>
-    <div className="button-row">
+    
       <Button label={'4'} handleClick={this.handleClick}/>
       <Button label={'5'} handleClick={this.handleClick}/>
       <Button label={'6'} handleClick={this.handleClick}/>
       <Button label={'-'} handleClick={this.handleClick}/>
-    </div>
-    <div className="button-row">
+   
       <Button label={'1'} handleClick={this.handleClick}/>
       <Button label={'2'} handleClick={this.handleClick}/>
       <Button label={'3'} handleClick={this.handleClick}/>
       <Button label={'+'} handleClick={this.handleClick}/>
-    </div>
-    <div className="button-row">
+    
       <Button label={'0'} handleClick={this.handleClick}/>
       <Button label={'='} handleClick={this.handleClick}/>
-    </div>
+    
+		</div>
     </div>
     </div>
     );
