@@ -15,7 +15,7 @@ const responseGoogle = (response) => {
 ReactDOM.render(
   <GoogleLogin
     clientId="447012010585-b9fuirddc7j2f3u0bqgdrqgc75rkn7lk.apps.googleusercontent.com"
-    buttonText="Login"
+    buttonText="Sign in with Google"
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
     cookiePolicy={'single_host_origin'}
