@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GoogleLogin from 'react-google-login';
+import Calculator from './calculator.js';
+
 
 
 const responseGoogle = (response) => {
   console.log(response);
+  document.getElementById('googleButton').innerHTML = "<img src=" + response.profileObj.imageUrl + ">";
 	document.getElementById('response').innerHTML = "Welcome " + response.profileObj.name;
 }
 
@@ -20,3 +23,6 @@ ReactDOM.render(
   />,
   document.getElementById('googleButton')
 );
+
+  
+ReactDOM.render(<Calculator />, document.getElementById('Calculator'));
