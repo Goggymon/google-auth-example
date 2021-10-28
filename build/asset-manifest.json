@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "//google-auth-example/static/js/main.3a924e0c.chunk.js",
+    "main.js.map": "//google-auth-example/static/js/main.3a924e0c.chunk.js.map",
+    "runtime-main.js": "//google-auth-example/static/js/runtime-main.789f5e32.js",
+    "runtime-main.js.map": "//google-auth-example/static/js/runtime-main.789f5e32.js.map",
+    "static/js/2.ee5c9c61.chunk.js": "//google-auth-example/static/js/2.ee5c9c61.chunk.js",
+    "static/js/2.ee5c9c61.chunk.js.map": "//google-auth-example/static/js/2.ee5c9c61.chunk.js.map",
+    "index.html": "//google-auth-example/index.html",
+    "static/js/2.ee5c9c61.chunk.js.LICENSE.txt": "//google-auth-example/static/js/2.ee5c9c61.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.789f5e32.js",
+    "static/js/2.ee5c9c61.chunk.js",
+    "static/js/main.3a924e0c.chunk.js"
+  ]
+}
